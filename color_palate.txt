@@ -1,0 +1,4 @@
+Dark blue: #53006A (text?)
+Sunset Red: #CD113B
+Dark Orange: #FF7600
+Sunset Green: #FFA900 (background)
