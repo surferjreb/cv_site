@@ -1,3 +1,26 @@
-h1 {
-    color: #53006A;
+
+a:hover {
+    color: azure;
+}
+
+.bg-mine {
+    background-color: #CD113B;
+}
+
+#title_row {
+    background-color: #FF7600;
+}
+
+#title_header_info {
+    color: azure;
+}
+
+#bio {
+    background-color: #F3950D;
+}
+
+#shrt_desc {
+    background-color: cadetblue;
+    color: azure;
+    text-emphasis: 1 rel;
 }
