@@ -1,14 +1,6 @@
 body {
-    background-color: #FFA900;
-    float: center;
-    font-family: 'Times New Roman', Times, serif;
-    width: 100%;
-}
-
-hr {
-    background-color: #CD113B;
-    border-style: groove;
-    height: 3px;
-    width: 100%;
+    background-color: #F4E185;
+    font-family: 'sans-serif';
+    
 }
 
