@@ -1,14 +1,6 @@
 
-a:hover {
-    color: azure;
-}
-
-.bg-mine {
-    background-color: #CD113B;
-}
-
 #title_row {
-    background-color: #FF7600;
+    background-color: #F3950D;
 }
 
 #title_header_info {
@@ -19,8 +11,19 @@ a:hover {
     background-color: #F3950D;
 }
 
+#exp {
+    background-color: #F3950D;
+    color: azure;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.5rem;
+}
+
 #shrt_desc {
     background-color: cadetblue;
     color: azure;
-    text-emphasis: 1 rel;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.75rem;
 }
+
+/*Create text shadow 
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
