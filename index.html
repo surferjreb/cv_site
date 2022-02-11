@@ -5,6 +5,7 @@
     <title>James R. E. Brown</title>
     <link rel="icon" href="images/jbicon.ico">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navigation_bar.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/background.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,29 @@
   </head>
 
   <body>
-    <div id="nav-placeholder" class="container-fluid sticky-top"></div>
+    <nav class="navbar navbar-expand-lg sticky navbar-dark bg-mine">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../view/empl_hist.html">Employment History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../view/hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../view/contact_me.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container-fluid">
       <div class="row" id="title_row">
         <div class="col-sm-auto">
@@ -41,7 +64,7 @@
             <div class="card-body">
               <h5 class="card-title">Welcome</h5>
               <p class="card-text">
-                Use the nav links or scroll the page...
+                Use the nav links or scroll the page for a quick summary.
               </p>
             </div>
           </div>
@@ -238,8 +261,7 @@
       <div class="text-center"><a href="mailto:jamesbrownre1@gmail.com">Contact Me!</a></div>
       <p class="text-center">&#169; 2022 James Brown</p>
     </div> 
-    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/navigation.js"></script>
+    
     <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
     
     
