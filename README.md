@@ -9,7 +9,7 @@
   
 > ## Dependecies:
 > Bootstrap v5.1.3
-> JQuery v3.6.0
+> 
 >  
   
 > ## Issues:
